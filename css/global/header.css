@@ -1,6 +1,5 @@
 .header-bg {
-  background-color: blueviolet;
-  color: white;
+  background-color: var(--bg2);
 }
 .header-container {
   display: flex;
@@ -14,7 +13,11 @@
   flex-wrap: wrap;
   gap: 40px;
 }
+.header-logo a {
+  color: var(--cor1);
+}
 .header-menu a {
+  color: var(--cor1);
   padding-top: 20px;
   padding-bottom: 20px;
 }

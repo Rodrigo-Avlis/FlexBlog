@@ -1,6 +1,6 @@
 .superinfo-bg {
-  background-color: blue;
-  color: white;
+  background-color: var(--bg3);
+  color: var(--cor1);
 }
 .superinfo-container {
   display: flex;
@@ -8,4 +8,7 @@
   padding-top: 5px;
   padding-bottom: 5px;
   align-items: center;
+}
+.superinfo-container a {
+  color: var(--cor1);
 }

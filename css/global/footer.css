@@ -1,11 +1,13 @@
 .footer-bg {
-  background-color: blue;
-  color: white;
+  background-color: var(--bg2);
+  color: var(--cor4);
 }
 .footer-container {
   display: flex;
-  justify-content: space-between;
+  height: 200px;
+  justify-content: center;
   align-items: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
+}
+.footer-container p {
+  color: var(--cor4);
 }
