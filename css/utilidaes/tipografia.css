@@ -1,0 +1,20 @@
+.font-1-xs {
+  font: 400 1rem/1.2 "Nunito", sans-serif;
+}
+.font-1-s {
+  font: 400 1.25rem/1.4 "Nunito", sans-serif;
+}
+.font-1-m {
+  font: 500 2.25rem/1.25 "Nunito", sans-serif;
+}
+.font-1-m-b {
+  font: bold 2.25rem/1.25 "Nunito", sans-serif;
+}
+.font-1-l-b {
+  font: bold 3rem/1 "Nunito", sans-serif;
+}
+
+/* 1.0 rem supinfo
+1.25 rem menu, paragrafo, lista, label
+2.25rem logo, bt1, bt2, h2, footer
+3.0 rem h1 */

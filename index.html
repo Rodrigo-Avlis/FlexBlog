@@ -14,164 +14,154 @@
 </head>
 
 <body>
-  <div class="superinfo-bg">
-    <div class="superinfo-container container">
+  <div class="superinfo-bg bg4">
+    <div class="superinfo-container container font-1-xs cor1">
       <p>Seg / Sex - 08:00 às 18:00</p>
       <a href="tel:+55219999-9999">+55 21 9999-9999</a>
       <p>Av. Ali Perto, 330, Botafogo - RJ</p>
     </div>
   </div>
-  <header class="header-bg">
+  <header class="header-bg bg3">
     <div class="header-container container">
-      <div class="header-logo">
+      <div class="header-logo font-1-m-b">
         <a href="./">FlexBlog</a>
       </div>
-      <nav class="header-menu">
+      <nav class="header-menu font-1-s">
         <ul>
           <li>
-            <a href="./">Sobre</a>
+            <a href="#sobre">Sobre</a>
           </li>
           <li>
-            <a href="./">Produtos</a>
+            <a href="#produtos">Produtos</a>
           </li>
           <li>
-            <a href="./">Preço</a>
+            <a href="#preco">Preço</a>
           </li>
           <li>
-            <a href="./">Contato</a>
+            <a href="#qualidade">Qualidade</a>
           </li>
         </ul>
       </nav>
     </div>
   </header>
-  <main class="introducao-bg">
-    <div class="introducao-container container">
-      <h1>Novos valores e<br>
-        Propriedades de CSS</h1>
-      <div>
-        <div>
-          <h2>Sobre</h2>
-          <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.
-
-            O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.</p>
-        </div>
-        <div>
-          <img src="./img/sobre1.jpg" alt="">
-          <img src="./img/sobre2.jpg" alt="">
-        </div>
-
+  <h1 class="introducao-container container font-1-l-b cor4">Novos valores e<br>
+    Propriedades de CSS</h1>
+  <main class="sobre-bg" id="sobre">
+    <div class="sobre-container container">
+      <div class="sobre-info">
+        <h1 class="font-1-l-b cor4">Sobre</h1>
+        <p class="font-1-s cor3">O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.</p>
+        <p class="font-1-s cor3"> O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.</p>
+      </div>
+      <div class="sobre-img">
+        <img src="./img/sobre1.jpg" alt="sobre1">
+      </div>
+      <div class="sobre-img">
+        <img src="./img/sobre2.jpg" alt="sobre2">
       </div>
     </div>
   </main>
-  <article class="produtos-bg">
+  <article class="produtos-bg" id="produtos">
     <div class="produtos-container container">
-      <div>
-        <h2>Produtos</h2>
-      </div>
-      <div>
-        <div>
-          <h2>Purple</h2>
-          <img src="./img/produtos1.jpg" alt="">
+      <h1 class="font-1-l-b cor4">Produtos</h1>
+      <div class="produtos-container1 container1">
+        <div class="produtos-item purple">
+          <h2 class="font-1-l-b cor2 bg5">Purple</h2>
+          <img src="./img/produtos1.jpg" alt="produto1">
         </div>
-        <div>
-          <h2>Pink</h2>
-          <img src="./img/produtos2.jpg" alt="">
+        <div class="produtos-item pink">
+          <h2 class="font-1-l-b cor2 bg5">Pink</h2>
+          <img src="./img/produtos2.jpg" alt="produto2">
         </div>
-        <div>
-          <h2>Blue</h2>
-          <img src="./img/produtos3.jpg" alt="">
+        <div class="produtos-item blue">
+          <h2 class="font-1-l-b cor2 bg5">Blue</h2>
+          <img src="./img/produtos3.jpg" alt="produto3">
         </div>
       </div>
     </div>
   </article>
-  <article class="plano-bg">
-    <div class="plano-container container">
-      <div>
-        <h2>Cobre</h2>
-        <p>R$19</p>
-        <ul>
+  <article class="preco-bg bg2" id="preco">
+    <div class="preco-container container">
+      <div class="preco-item">
+        <h2 class="font-1-l-b cor2">Cobre</h2>
+        <span class="font-1-l-b cor4"><sup>R$</sup>19</span>
+        <ul class="font-1-s cor2">
           <li>Planos Ilimitados</li>
-          <li>Planos Ilimitados</li>
-          <li>Planos Ilimitados</li>
-          <li>Planos Ilimitados</li>
-          <li>Planos Ilimitados</li>
-          <li>Planos Ilimitados</li>
+          <li>Acesso Restrito</li>
+          <li>Conteúdo Secreto</li>
+          <li>Suporte 24h</li>
         </ul>
-        <a href="./">Comprar</a>
+        <a class="bt1" href="./">Comprar</a>
       </div>
-      <div>
-        <h2>Prata</h2>
-        <p>R$39</p>
-        <ul>
+      <div class="preco-item">
+        <h2 class="font-1-l-b cor2">Prata</h2>
+        <span class="font-1-l-b cor4"><sup>R$</sup>39</span>
+        <ul class="font-1-s cor2">
           <li>Planos Ilimitados</li>
-          <li>Planos Ilimitados</li>
-          <li>Planos Ilimitados</li>
-          <li>Planos Ilimitados</li>
-          <li>Planos Ilimitados</li>
-          <li>Planos Ilimitados</li>
+          <li>Acesso Restrito</li>
+          <li>Conteúdo Secreto</li>
+          <li>Suporte 24h</li>
+          <li>Compra Exclusiva</li>
         </ul>
-        <a href="./">Comprar</a>
+        <a class="bt1" href="./">Comprar</a>
       </div>
-      <div>
-        <h2>Ouro</h2>
-        <p>R$79</p>
-        <ul>
+      <div class="preco-item">
+        <h2 class="font-1-l-b cor2">Ouro</h2>
+        <span class="font-1-l-b cor4"><sup>R$</sup>79</span>
+        <ul class="font-1-s cor2">
           <li>Planos Ilimitados</li>
-          <li>Planos Ilimitados</li>
-          <li>Planos Ilimitados</li>
-          <li>Planos Ilimitados</li>
-          <li>Planos Ilimitados</li>
-          <li>Planos Ilimitados</li>
+          <li>Acesso Restrito</li>
+          <li>Conteúdo Secreto</li>
+          <li>Suporte 24h</li>
+          <li>Compra Exclusiva</li>
+          <li>Download dos Itens</li>
         </ul>
-        <a href="./">Comprar</a>
+        <a class="bt1" href="./">Comprar</a>
       </div>
     </div>
   </article>
-  <article class="vantagens-bg">
-    <div class="vantagens-container container">
-      <div>
-        <h2>Inteligente</h2>
-        <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+  <article class="qualidade-bg" id="qualidade">
+    <div class="qualidade-container container">
+      <div class="qualidade-item">
+        <h2 class="font-1-m-b cor2">Inteligente</h2>
+        <p class="font-1-s cor2">O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
       </div>
-      <div>
-        <h2>Compacto</h2>
-        <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente</p>
+      <div class="qualidade-item">
+        <h2 class="font-1-m-b cor2">Compacto</h2>
+        <p class="font-1-s cor2">O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente</p>
       </div>
-      <div>
-        <h2>Econômico</h2>
-        <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+      <div class="qualidade-item">
+        <h2 class="font-1-m-b cor2">Econômico</h2>
+        <p class="font-1-s cor2">O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
       </div>
-      <div>
-        <h2>Transparente</h2>
-        <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+      <div class="qualidade-item">
+        <h2 class="font-1-m-b cor2">Transparente</h2>
+        <p class="font-1-s cor2">O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
       </div>
-      <div>
-        <h2>Opaco</h2>
-        <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente</p>
+      <div class="qualidade-item">
+        <h2 class="font-1-m-b cor2">Opaco</h2>
+        <p class="font-1-s cor2">O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente</p>
       </div>
-      <div>
-        <h2>Sustentável</h2>
-        <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+      <div class="qualidade-item">
+        <h2 class="font-1-m-b cor2">Sustentável</h2>
+        <p class="font-1-s cor2">O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
       </div>
     </div>
   </article>
   <section class="newsletter-bg" aria-label="newsletter">
     <div class="newsletter-container container">
-      <div>
-        <h2>Newsletter</h2>
-        <p>assine e fique por dentro das novidades</p>
+      <div class="newsletter-info">
+        <h1 class="font-1-m-b cor2">Newsletter</h1>
+        <p class="font-1-s cor2">assine e fique por dentro das novidades</p>
       </div>
-      <div>
-        <form action="">
-          <label for="newsletter">Seu email</label>
-          <input type="text" name="newsletter" id="newsletter">
-          <button>Assinar</button>
-        </form>
-      </div>
+      <form class="newsletter-form" action="">
+        <input type="text" placeholder="Seu e-mail">
+        <button class="bt2" type="submit">Assinar</button>
+      </form>
     </div>
   </section>
-  <footer class="footer-bg cor2 bg2">
-    <div class="footer-container container">
+  <footer class="footer-bg bg3">
+    <div class="footer-container container font-1-m cor6">
       <p class="copy">FlexBlog © Todos os direitos reservados.</p>
     </div>
   </footer>

@@ -7,8 +7,12 @@ p,
 a,
 ul,
 li {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  color: var(--cor4);
 }
 a {
   text-decoration: none;
@@ -16,4 +20,11 @@ a {
 ul,
 li {
   list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+* {
+  box-sizing: border-box;
 }

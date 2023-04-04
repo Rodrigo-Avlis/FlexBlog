@@ -1,0 +1,27 @@
+.produtos-container {
+  padding: 60px 10px;
+}
+.produtos-container h1 {
+  margin-bottom: 60px;
+}
+.produtos-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.produtos-item {
+  flex: 1 1 175px;
+  margin: 10px;
+}
+.produtos-item h2 {
+  padding: 60px 20px;
+}
+.purple {
+  border-top: 8px solid var(--det1);
+}
+.pink {
+  border-top: 8px solid var(--det2);
+}
+.blue {
+  border-top: 8px solid var(--det3);
+}

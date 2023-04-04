@@ -1,14 +1,14 @@
-.superinfo-bg {
-  background-color: var(--bg3);
-  color: var(--cor1);
-}
 .superinfo-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
   align-items: center;
 }
 .superinfo-container a {
   color: var(--cor1);
+}
+.superinfo-container a,
+.superinfo-container p {
+  margin-bottom: 10px;
 }

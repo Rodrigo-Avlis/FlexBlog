@@ -1,0 +1,20 @@
+.sobre-container {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 2px solid var(--cor7);
+  border-bottom: 2px solid var(--cor7);
+  padding: 60px 10px;
+}
+.sobre-info {
+  flex: 2 1 300px;
+}
+.sobre-info h1 {
+  margin-bottom: 0.5em;
+}
+.sobre-info p {
+  margin-bottom: 1em;
+}
+.sobre-img {
+  flex: 1 1 160px;
+  margin: 0 10px;
+}
