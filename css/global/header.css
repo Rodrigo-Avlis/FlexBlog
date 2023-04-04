@@ -1,0 +1,31 @@
+.header-bg {
+  background-color: blueviolet;
+  color: white;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header-menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.header-menu a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media (max-width: 500px) {
+  .header-container {
+    display: block;
+    text-align: center;
+  }
+  .header-menu ul {
+    margin-top: 10px;
+    gap: 20px;
+    justify-content: center;
+  }
+}

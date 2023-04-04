@@ -1,0 +1,9 @@
+@import url(./global/global.css);
+@import url(./global/header.css);
+@import url(./global/footer.css);
+
+@import url(./utilidaes/tipografia.css);
+@import url(./utilidaes/cor.css);
+@import url(./utilidaes/componentes.css);
+
+@import url(./home/superinfo.css);
