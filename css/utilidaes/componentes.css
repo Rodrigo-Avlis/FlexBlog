@@ -19,6 +19,7 @@
   text-align: center;
 }
 .bt2 {
+  flex: 1 1 200px;
   padding: 15px 10px;
   background-color: var(--bg3);
   color: var(--cor1);
